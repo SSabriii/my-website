@@ -1,0 +1,101 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('images/backkk.png');
+    background-size: cover;
+    color: #fff;
+}
+
+header {
+    background-color: gray; 
+    padding: 1px;
+    text-align: center;
+    position: fixed;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 19px; 
+}
+
+a:hover {
+    color:  #ecd8c6; 
+}
+
+#main-content {
+    text-align: center;
+    padding:  50px 20px;
+}
+
+h1 {
+    color: rgba(52, 152, 219, 0.7);
+}
+
+p {
+    font-size: 1.5em;
+    color:   #ac7339
+
+    ;
+}
+
+a.button,
+button {
+    display: inline-block;
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+}
+
+a.button:hover,
+button:hover {
+    background-color: #27ae60;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(52, 152, 219, 0.7);
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 1em;
+}
+
+
+
+.transparent-box {
+    background-color: rgba(255, 255, 255, 0.8); 
+    border: 1px solid #ccc; 
+    max-width: 600px;
+    margin: 50px auto; 
+    padding: 20px;
+  }
+  
+  p {
+    margin: 0; 
+  }
+  #ps{
+    color: white;
+  }

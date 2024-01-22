@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa; 
+    background-image: url("images/backsabri.jpg");
+}
+
+section {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+article {
+    background-color: #ecd8c6;; 
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+article:hover {
+    background-color: rgb(253, 249, 249); 
+    
+    border: 2px solid rgba(52, 152, 219, 0.7);; 
+}
+
+
+h2 {
+    color: rgba(52, 152, 219, 0.7);;
+}
+
+p {
+    color: #333;
+}
+
+h3{
+    color: black;
+}
+
+
+footer {
+    background-color: rgba(52, 152, 219, 0.7);
+    color: white;
+    text-align: center;
+    padding:10px;
+}
+
+footer p{
+    color: white;
+}
+
+
+header {
+    background-color: gray; 
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 19px; 
+}
+
+a:hover {
+    color:  #ecd8c6; 
+}
+
+
+
+#ps{
+    font-size: 18px;
+}
+
+#iee{
+    text-align: center;
+}
+
+#ss{
+    text-align: center;
+}
